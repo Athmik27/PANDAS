@@ -308,21 +308,21 @@ df=pd.DataFrame(data)
 print(df[(df["Age"] > 20) & (df["Marks"] > 80)])
 
 # # same as above but with or condition
- data={
+data={
          'name':["MARK","JACK","HENRY","NATALIE"],
         'age':[21,22,20,19],
         'marks':[80,75,90,85],
 }
 df=pd.DataFrame(data)
- print(df[(df['age']<20)| (df["marks"]>80)])
+print(df[(df['age']<20)| (df["marks"]>80)])
 
 # ### imp place question
- data = {
+data = {
      "Name": ["Rahul", "Anu", "Kiran", "Sneha", "Arjun"],
      "Age": [21, 20, 22, 19, 23],
     "Marks": [78, 92, 65, 88, 95]
  }
- df = pd.DataFrame(data)
+df = pd.DataFrame(data)
 df["Result"] = df["Marks"] >= 40
 print(df)
 
