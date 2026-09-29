@@ -36,8 +36,8 @@ s = pd.Series([10, 20, 30, 40])
 print(s)
 
 # import pandas as pd
-s = pd.Series([100, 200, 300], index=["A", "B", "C"])
-# print(s["B"])
+# s = pd.Series([100, 200, 300], index=["A", "B", "C"])
+# # print(s["B"])
 
 import pandas as pd
 s = pd.Series([10, 20, 30, 40])
@@ -55,13 +55,13 @@ import pandas as pd
 s = pd.Series([10, 20, 30], index=["A", "B", "C"])
 print(s.index)
 
-import pandas as pd
-s = pd.Series([10, 20, 30], index=["A", "B", "C"])
-print(s.values) # s.index    # gives labels
+# import pandas as pd
+# s = pd.Series([10, 20, 30], index=["A", "B", "C"])
+# print(s.values) # s.index    # gives labels
 #                s.values   # gives values
 
 # Create a Pandas Series containing:
-# 10, 20, 30, 40, 50
+10, 20, 30, 40, 50
 # Then print the Series.
 s=pd.Series([10,20,30,40,50])
 print(s)
